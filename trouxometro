@@ -1,0 +1,22 @@
+var numeroSecreto = Math.random()*10
+
+alert("Olá, vamos começar a brincadeira😙")
+alert("Preste bastante atenção, primero iremos fazer algumas perguntas pessoais. ")
+
+var nomeUsuário = prompt("Me diga o seu nome.")
+
+var relacionamentos = parseInt(prompt("Bom, " + nomeUsuário + " agora me diga quantos relacionamentos você já teve."))
+
+var considero = prompt("Você se considera uma pessoa mais fria ou sentimental?")
+
+var questionamento = prompt("Você prefere amar ou ser amada?")
+
+alert("Analisando suas respostas " + nomeUsuário + ", temos o resultado!")
+
+alert("Sua resposta é: " + parseInt(numeroSecreto))
+
+if (parseInt(numeroSecreto) < 5) {
+  alert("Não foi tão ruim hein?!")
+} else if (parseInt(numeroSecreto) > 5) {
+  alert("É da escola da Carla Diaz é, frô?")
+}
